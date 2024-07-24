@@ -1,0 +1,99 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --secundario: #00be39;
+    --primario: #0787ff;
+}
+
+body {
+    font-family: Arial;
+    background-color: var(--blanco);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px;
+  
+
+}
+
+.form-group {
+    margin-bottom: 10px;
+
+}
+
+h1 {
+    background-color: var(--primario);
+    color: var(--blanco);
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+h2 {
+    background-color: var(--primario);
+    color: var(--blanco);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+
+}
+
+h3 {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--oscuro);
+    
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    color: var(--oscuro);
+    background-color: var(--blanco);
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+th,
+td {
+    padding: 10px;
+}
+
+button {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
